@@ -84,7 +84,7 @@
     <maven.source.plugin.version>3.3.0</maven.source.plugin.version>
     <maven.spotless.plugin.version>2.41.1</maven.spotless.plugin.version>
     <maven.surefire.argLine />
-    <maven.surefire.plugin.version>3.2.3</maven.surefire.plugin.version>
+    <maven.surefire.plugin.version>3.2.5</maven.surefire.plugin.version>
     <maven.version.minimum>3.9</maven.version.minimum>
     <mavenPluginToolsVersion>3.5.2</mavenPluginToolsVersion>
     <mavenVersion>3.5.0</mavenVersion>
