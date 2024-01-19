@@ -83,6 +83,7 @@
     <maven.resources.plugin.version>3.3.1</maven.resources.plugin.version>
     <maven.shade.plugin.version>3.5.1</maven.shade.plugin.version>
     <maven.source.plugin.version>3.3.0</maven.source.plugin.version>
+    <maven.spotbugs.version>4.8.3.0</maven.spotbugs.version>
     <maven.spotless.plugin.version>2.42.0</maven.spotless.plugin.version>
     <maven.surefire.argLine />
     <maven.surefire.plugin.version>3.2.5</maven.surefire.plugin.version>
@@ -101,6 +102,11 @@
           <groupId>com.diffplug.spotless</groupId>
           <artifactId>spotless-maven-plugin</artifactId>
           <version>${maven.spotless.plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>com.github.spotbugs</groupId>
+          <artifactId>spotbugs-maven-plugin</artifactId>
+          <version>${maven.spotbugs.version}</version>
         </plugin>
         <plugin>
           <groupId>org.apache.felix</groupId>
@@ -301,6 +307,8 @@
         <jdk>1.8</jdk>
       </activation>
       <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
         <maven.spotless.plugin.version>2.30.0</maven.spotless.plugin.version>
       </properties>
     </profile>
