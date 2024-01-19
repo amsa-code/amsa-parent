@@ -61,6 +61,7 @@
     <forkCount>1</forkCount>
     <jdk.version.minimum>8</jdk.version.minimum>
     <maven.assembly.plugin.version>3.6.0</maven.assembly.plugin.version>
+    <maven.bundle.plugin.version>5.1.9</maven.bundle.plugin.version>
     <maven.clean.plugin.version>3.3.2</maven.clean.plugin.version>
     <maven.compiler.plugin.version>3.12.1</maven.compiler.plugin.version>
     <maven.compiler.source>${jdk.version.minimum}</maven.compiler.source>
@@ -100,6 +101,11 @@
           <groupId>com.diffplug.spotless</groupId>
           <artifactId>spotless-maven-plugin</artifactId>
           <version>${maven.spotless.plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.felix</groupId>
+          <artifactId>maven-bundle-plugin</artifactId>
+          <version>${bundle.plugin.version}</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
