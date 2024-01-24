@@ -86,7 +86,7 @@
     <maven.site.plugin.version>4.0.0-M13</maven.site.plugin.version>
     <maven.source.plugin.version>3.3.0</maven.source.plugin.version>
     <maven.spotbugs.plugin.version>4.8.3.0</maven.spotbugs.plugin.version>
-    <maven.spotless.plugin.version>2.42.0</maven.spotless.plugin.version>
+    <maven.spotless.plugin.version>2.43.0</maven.spotless.plugin.version>
     <maven.surefire.argLine />
     <maven.surefire.plugin.version>3.2.5</maven.surefire.plugin.version>
     <maven.version.minimum>3.9</maven.version.minimum>
