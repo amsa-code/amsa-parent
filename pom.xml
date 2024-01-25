@@ -92,6 +92,8 @@
     <maven.shade.plugin.version>3.5.1</maven.shade.plugin.version>
     <maven.site.plugin.version>4.0.0-M13</maven.site.plugin.version>
     <maven.source.plugin.version>3.3.0</maven.source.plugin.version>
+    <maven.spotbugs.plugin.effort>Max</maven.spotbugs.plugin.effort>
+    <maven.spotbugs.plugin.threshold>Low</maven.spotbugs.plugin.threshold>
     <maven.spotbugs.plugin.version>4.8.3.0</maven.spotbugs.plugin.version>
     <maven.spotless.plugin.version>2.42.0</maven.spotless.plugin.version>
     <maven.surefire.argLine />
@@ -117,6 +119,10 @@
           <groupId>com.github.spotbugs</groupId>
           <artifactId>spotbugs-maven-plugin</artifactId>
           <version>${maven.spotbugs.plugin.version}</version>
+          <configuration>
+            <effort>${maven.spotbugs.plugin.effort}</effort>
+            <threshold>${maven.spotbugs.plugin.threshold}</threshold>
+          </configuration>
         </plugin>
         <plugin>
           <groupId>org.apache.felix</groupId>
