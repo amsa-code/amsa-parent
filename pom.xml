@@ -76,8 +76,10 @@
     <maven.info.plugin.version>3.5.0</maven.info.plugin.version>
     <maven.install.plugin.version>3.1.1</maven.install.plugin.version>
     <maven.invoker.plugin.version>3.6.0</maven.invoker.plugin.version>
+    <maven.jacoco.plugin.version>0.8.11</maven.jacoco.plugin.version>
     <maven.jar.plugin.version>3.3.0</maven.jar.plugin.version>
     <maven.javadoc.plugin.version>3.6.3</maven.javadoc.plugin.version>
+    <maven.pmd.plugin.version>3.21.2</maven.pmd.plugin.version>
     <maven.release.plugin.arguments />
     <maven.release.plugin.goals>deploy</maven.release.plugin.goals>
     <maven.release.plugin.preparationGoals>clean install</maven.release.plugin.preparationGoals>
@@ -205,6 +207,11 @@
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-pmd-plugin</artifactId>
+          <version>${maven.pmd.plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
           <version>${maven.release.plugin.version}</version>
           <configuration>
@@ -252,6 +259,11 @@
           <configuration>
             <argLine>${maven.surefire.argLine}</argLine>
           </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.jacoco</groupId>
+          <artifactId>jacoco-maven-plugin</artifactId>
+          <version>${maven.jacoco.plugin.version}</version>
         </plugin>
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
