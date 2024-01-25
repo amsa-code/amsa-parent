@@ -57,11 +57,13 @@
   </distributionManagement>
 
   <properties>
+    <checkstyle.core.version>9.3</checkstyle.core.version>
     <failIfNoTests>false</failIfNoTests>
     <forkCount>1</forkCount>
     <jdk.version.minimum>8</jdk.version.minimum>
     <maven.assembly.plugin.version>3.6.0</maven.assembly.plugin.version>
     <maven.bundle.plugin.version>5.1.9</maven.bundle.plugin.version>
+    <maven.checkstyle.plugin.version>3.3.1</maven.checkstyle.plugin.version>
     <maven.clean.plugin.version>3.3.2</maven.clean.plugin.version>
     <maven.compiler.plugin.version>3.12.1</maven.compiler.plugin.version>
     <maven.compiler.source>${jdk.version.minimum}</maven.compiler.source>
@@ -120,6 +122,18 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-assembly-plugin</artifactId>
           <version>${maven.assembly.plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-checkstyle-plugin</artifactId>
+          <version>${maven.checkstyle.plugin.version}</version>
+          <dependencies>
+            <dependency>
+              <groupId>com.puppycrawl.tools</groupId>
+              <artifactId>checkstyle</artifactId>
+              <version>${checkstyle.core.version}</version>
+            </dependency>
+          </dependencies>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
