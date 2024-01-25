@@ -86,6 +86,9 @@
     <maven.release.plugin.version>3.0.1</maven.release.plugin.version>
     <maven.remote.resources.plugin.version>3.1.0</maven.remote.resources.plugin.version>
     <maven.resources.plugin.version>3.3.1</maven.resources.plugin.version>
+    <maven.scm-publish.plugin.checkoutDirectory>${user.home}/.mvn/site/${project.artifactId}</maven.scm-publish.plugin.checkoutDirectory>
+    <maven.scm-publish.plugin.tryUpdate>true</maven.scm-publish.plugin.tryUpdate>
+    <maven.scm-publish.plugin.version>3.0.0</maven.scm-publish.plugin.version>
     <maven.shade.plugin.version>3.5.1</maven.shade.plugin.version>
     <maven.site.plugin.version>4.0.0-M13</maven.site.plugin.version>
     <maven.source.plugin.version>3.3.0</maven.source.plugin.version>
@@ -236,7 +239,11 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-scm-publish-plugin</artifactId>
-          <version>3.0.0</version>
+          <version>${maven.scm-publish.plugin.version}</version>
+          <configuration>
+            <tryUpdate>${maven.scm-publish.plugin.tryUpdate}</tryUpdate>
+            <checkoutDirectory>${maven.scm-publish.plugin.checkoutDirectory}</checkoutDirectory>
+          </configuration>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
