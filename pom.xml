@@ -220,6 +220,7 @@
             <arguments>-Prelease ${maven.release.plugin.arguments}</arguments>
             <preparationGoals>${maven.release.plugin.preparationGoals}</preparationGoals>
             <mavenExecutorId>forked-path</mavenExecutorId>
+            <releaseProfiles>release</releaseProfiles>
           </configuration>
         </plugin>
         <plugin>
