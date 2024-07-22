@@ -84,7 +84,7 @@
     <maven.jacoco.plugin.version>0.8.11</maven.jacoco.plugin.version>
     <maven.jar.plugin.version>3.3.0</maven.jar.plugin.version>
     <maven.javadoc.plugin.version>3.6.3</maven.javadoc.plugin.version>
-    <maven.pmd.plugin.version>3.21.2</maven.pmd.plugin.version>
+    <maven.pmd.plugin.version>3.24.0</maven.pmd.plugin.version>
     <maven.release.plugin.arguments />
     <maven.release.plugin.goals>deploy</maven.release.plugin.goals>
     <maven.release.plugin.preparationGoals>clean install</maven.release.plugin.preparationGoals>
