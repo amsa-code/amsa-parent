@@ -78,7 +78,7 @@
     <maven.gpg.plugin.version>3.1.0</maven.gpg.plugin.version>
     <maven.info.plugin.version>3.6.2</maven.info.plugin.version>
     <maven.install.plugin.version>3.1.1</maven.install.plugin.version>
-    <maven.invoker.plugin.version>3.6.0</maven.invoker.plugin.version>
+    <maven.invoker.plugin.version>3.7.0</maven.invoker.plugin.version>
     <maven.jacoco.plugin.branch.coverage>0.80</maven.jacoco.plugin.branch.coverage>
     <maven.jacoco.plugin.line.coverage>0.95</maven.jacoco.plugin.line.coverage>
     <maven.jacoco.plugin.version>0.8.11</maven.jacoco.plugin.version>
