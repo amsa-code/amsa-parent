@@ -57,7 +57,7 @@
   </distributionManagement>
 
   <properties>
-    <checkstyle.core.version>9.3</checkstyle.core.version>
+    <checkstyle.core.version>10.19.0</checkstyle.core.version>
     <checkstyle.skip>true</checkstyle.skip>
     <failIfNoTests>false</failIfNoTests>
     <forkCount>1</forkCount>
