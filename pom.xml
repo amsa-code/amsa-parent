@@ -93,7 +93,7 @@
     <maven.source.plugin.version>3.3.1</maven.source.plugin.version>
     <maven.spotbugs.plugin.effort>Max</maven.spotbugs.plugin.effort>
     <maven.spotbugs.plugin.threshold>Low</maven.spotbugs.plugin.threshold>
-    <maven.spotbugs.plugin.version>4.8.6.2</maven.spotbugs.plugin.version>
+    <maven.spotbugs.plugin.version>4.9.3.0</maven.spotbugs.plugin.version>
     <maven.spotless.plugin.version>2.43.0</maven.spotless.plugin.version>
     <maven.surefire.argLine />
     <maven.surefire.plugin.version>3.3.1</maven.surefire.plugin.version>
