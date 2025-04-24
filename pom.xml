@@ -463,6 +463,7 @@
         <extensions>true</extensions>
         <configuration>
           <publishingServerId>central</publishingServerId>
+          <waitUntil>uploaded</waitUntil>
         </configuration>
       </plugin>
     </plugins>
