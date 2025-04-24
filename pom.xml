@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>au.gov.amsa</groupId>
   <artifactId>amsa-parent</artifactId>
-  <version>2</version>
+  <version>3-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>AMSA :: Parent</name>
   <description>AMSA Code Parent</description>
@@ -34,7 +34,7 @@
   <scm>
     <connection>scm:git:https://github.com/amsa-code/amsa-parent.git</connection>
     <developerConnection>scm:git:git@github.com:amsa-code/amsa-parent.git</developerConnection>
-    <tag>amsa-parent-2</tag>
+    <tag>amsa-parent-1</tag>
     <url>https://github.com/amsa-code/amsa-parent.git</url>
   </scm>
 
